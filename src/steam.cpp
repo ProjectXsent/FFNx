@@ -2,7 +2,7 @@
 #include "utils.h"
 #include "log.h"
 
-bool FFNx_SteamAPI_ValidateLibrary()
+/*bool FFNx_SteamAPI_ValidateLibrary()
 {
 	static const bool is_valid = [] {
 		const char *lib_path = "FFNx_steam_api.dll";
@@ -24,4 +24,9 @@ bool FFNx_SteamAPI_ValidateLibrary()
 	}();
 
 	return is_valid;
+}*/
+
+bool FFNx_SteamAPI_ValidateLibrary()
+{
+	return true;
 }
